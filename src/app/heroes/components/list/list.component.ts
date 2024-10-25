@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ListComponent {
 
-  public heroesNames: string[] = ['spiderman', 'ironman', 'hulk', 'thor'];
+  public heroesNames: string[] = ['spiderman', 'ironman', 'hulk', 'Superman'];
   public removedHero: string = '';
 
   capitalize(str: string): string {
